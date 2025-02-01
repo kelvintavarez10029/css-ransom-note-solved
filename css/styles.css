@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
 * {
   padding: 0;
@@ -57,248 +60,681 @@ body {
   font-size: 72px;
   font-weight: bold;
   color: aqua;
+  background-color: lightblue;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
   font-size: 30px;
   font-weight: bold;
   color: darkgoldenrod;
+  background-color: lightpink;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
   font-size: 60px;
   font-weight: normal;
   color: coral;
+  background-color: lightslategrey;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* DID word */
 
 .didDLetter {
+  font-size: 50px;
+  font-weight: normal;
+  color: coral;
+  background-color: lightblue;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 .didILetter {
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
+  color: rgb(255, 20, 147);
+  background-color: rosybrown;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .didDTwoLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+  color: hsl(60, 100%, 50%);
+  background-color: rgb(75, 0, 130);
+  font-weight: 400;
+  text-decoration: line-through;
 }
 
 /* THE word */
 
 .theTLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 42px;
+  color: #00ffff;
+  background-color: midnightblue;
+  font-weight: normal;
+  text-decoration: overline;
 }
 
 .theHLetter {
+  font-family: "Permanent Marker", cursive;
+  font-size: 26px;
+  color: rgb(255, 165, 0);
+  background-color: royalblue;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .theELetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 36px;
+  color: hsl(120, 100%, 25%);
+  background-color: turquoise;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 45px;
+  color: #ff4500;
+  font-weight: 400;
+  text-decoration: line-through;
+  background-color: lightcoral;
 }
 
 .frontendRLetter {
+  font-family: "Permanent Marker", cursive;
+  font-size: 52px;
+  color: rgb(75, 0, 130);
+  font-weight: normal;
+  text-decoration: overline;
+  background-color: lightgreen;
 }
 
 .frontendOLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 46px;
+  color: hsl(300, 100%, 25%);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: lightpink;
 }
 
 .frontendNLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 64px;
+  color: #8a2be2;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: lightyellow;
 }
 
 .frontendTLetter {
+  font-family: "Permanent Marker", cursive;
+  font-size: 78px;
+  color: #ff4500;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: lightgray;
 }
 
 .frontendELetter {
+  font-family: "Permanent Marker", cursive;
+  font-size: 52px;
+  color: rgb(75, 0, 130);
+  font-weight: normal;
+  text-decoration: overline;
+  background-color: lightblue;
 }
 
 .frontendNTwoLetter {
+  background-color: lightgreen;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 46px;
+  color: hsl(300, 100%, 25%);
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .frontendDLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 36px;
+  color: hsl(120, 100%, 25%);
+  background-color: turquoise;
+  font-weight: bold;
+  background-color: lightcoral;
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+  color: #00ffff;
+  font-weight: normal;
+  text-decoration: overline;
+  background-color: lightblue;
 }
 .developerELetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 36px;
+  color: hsl(120, 100%, 25%);
+  background-color: turquoise;
+  font-weight: bold;
+  background-color: lightgreen;
 }
 .developerVLetter {
+  font-family: "Permanent Marker", cursive;
+  font-size: 52px;
+  color: rgb(75, 0, 130);
+  font-weight: normal;
+  text-decoration: overline;
+  background-color: lightcoral;
 }
 .developerETwoLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 42px;
+  color: #00ffff;
+  font-weight: normal;
+  text-decoration: overline;
+  background-color: lightpink;
 }
 .developerLLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+  color:#8a2be2;
+  font-weight: normal;
+  text-decoration: overline;
+  background-color: lightyellow;
 }
 .developerOLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 45px;
+  color: #ff4500;
+  font-weight: 400;
+  text-decoration: line-through;
+  background-color: lightgray;
 }
 .developerPLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 38px;
+  color: #00ffff;
+  font-weight: normal;
+  text-decoration: overline;
+  background-color: lightblue;
 }
 .developerEThreeLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 36px;
+  color: hsl(120, 100%, 25%);
+  background-color: turquoise;
+  font-weight: bold;
+  background-color: lightgreen;
 }
 .developerRLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 45px;
+  color: #ff4500;
+  font-weight: 400;
+  text-decoration: line-through;
+  background-color: lightcoral;
 }
 
 /* TAKE word */
 
 .takeTLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 34px;
+  color: hsl(120, 100%, 25%);
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: lightpink;
 }
 .takeALetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 38px;
+  color: #00ffff;
+  font-weight: normal;
+  text-decoration: overline;
+  background-color: lightyellow;
 }
 .takeKLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 56px;
+  color: hsl(120, 100%, 25%);
+  background-color: turquoise;
+  font-weight: bold;
+  background-color: lightgray;
 }
 .takeELetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 64px;
+  color: #8a2be2;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: lightblue;
 }
 
 /* UP word */
 
 .upULetter {
+  font-family: "Permanent Marker", cursive;
+  font-size: 26px;
+  color: rgb(255, 165, 0);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: lightgreen;
 }
 .upPLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 46px;
+  color: hsl(120, 100%, 25%);
+  background-color: turquoise;
+  font-weight: bold;
+  background-color: lightcoral;
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 52px;
+  color: #00ffff;
+  font-weight: normal;
+  text-decoration: overline;
+  background-color: lightpink;
 }
 .gardeningALetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 46px;
+  color: hsl(300, 100%, 25%);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: lightyellow;
 }
 .gardeningRLetter {
+  background-color: lightgray;
 }
 .gardeningDLetter {
+  font-size: 72px;
+  font-weight: bold;
+  color: aqua;
+  background-color: lightblue;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background-color: lightblue;
 }
 .gardeningELetter {
+  background-color: lightgreen;
 }
 .gardeningNLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 46px;
+  color: hsl(300, 100%, 25%);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: lightcoral;
 }
 .gardeningILetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 64px;
+  color: #8a2be2;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: lightpink;
 }
 .gardeningNTwoLetter {
+  background-color: lightyellow;
 }
 .gardeningGTwoLetter {
+  background-color: lightgray;
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 20px;
+  color: hsl(60, 100%, 50%);
+  font-weight: 400;
+  text-decoration: line-through;
+  background-color: lightblue;
 }
 .becauseELetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 36px;
+  color: hsl(120, 100%, 25%);
+  background-color: turquoise;
+  font-weight: bold;
+  background-color: lightgreen;
 }
 .becauseCLetter {
+  background-color: lightcoral;
 }
 .becauseALetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 46px;
+  color: hsl(300, 100%, 25%);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: lightpink;
 }
 .becauseULetter {
+  font-size: 72px;
+  font-weight: bold;
+  color: aqua;
+  background-color: lightblue;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background-color: lightyellow;
 }
 .becauseSLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 64px;
+  color: #8a2be2;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: lightgray;
 }
 .becauseETwoLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 46px;
+  color: hsl(300, 100%, 25%);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: lightblue;
 }
 
 /* THEY word */
 
 .theyTLetter {
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
+  background-color: rgb(75, 0, 130);
+  color: rgb(255, 20, 147);
+  font-weight: bold;
+  text-decoration: underline;
 }
 .theyHLetter {
+  background-color: lightcoral;
 }
 .theyELetter {
+  font-size: 72px;
+  font-weight: bold;
+  color: aqua;
+  background-color: lightblue;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background-color: lightpink;
 }
 .theyYLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 64px;
+  color: #8a2be2;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: lightyellow;
 }
 
 /* WANTED word */
 
 .wantedWLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 20px;
+  color: hsl(60, 100%, 50%);
+  font-weight: 400;
+  text-decoration: line-through;
+  background-color: lightgray;
 }
 .wantedALetter {
+  font-size: 72px;
+  font-weight: bold;
+  color: aqua;
+  background-color: lightblue;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background-color: lightblue;
 }
 .wantedNLetter {
+  background-color: lightgreen;
 }
 .wantedTLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 46px;
+  color: hsl(300, 100%, 25%);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: lightcoral;
 }
 .wantedELetter {
+  background-color: lightpink;
 }
 .wantedDLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 64px;
+  color: #8a2be2;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: lightyellow;
 }
 
 /* TO word */
 
 .toTLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 22px;
+  color: #00ffff;
+  font-weight: normal;
+  text-decoration: overline;
+  background-color: lightgray;
 }
 .toOLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 46px;
+  color: hsl(300, 100%, 25%);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: lightblue;
 }
 
 /* IMPROVE word */
 
 .improveILetter {
+  font-family: "Permanent Marker", cursive;
+  font-size: 26px;
+  color: rgb(255, 165, 0);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: lightgreen;
 }
 .improveMLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 46px;
+  color: hsl(300, 100%, 25%);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: lightcoral;
 }
 .improvePLetter {
+  font-size: 72px;
+  font-weight: bold;
+  color: aqua;
+  background-color: lightblue;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background-color: lightpink;
 }
 .improveRLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 66px;
+  color: hsl(300, 100%, 25%);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: lightyellow;
 }
 .improveOLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 64px;
+  color: #8a2be2;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: lightgray;
 }
 .improveVLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 46px;
+  color: hsl(300, 100%, 25%);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: green;
 }
 .improveELetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 64px;
+  color: #8a2be2;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: lightgreen;
 }
 
 /* THEIR word */
 
 .theirTLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 20px;
+  color: hsl(60, 100%, 50%);
+  font-weight: 400;
+  text-decoration: line-through;
+  background-color: lightcoral;
 }
 .theirHLetter {
+  font-size: 72px;
+  font-weight: bold;
+  color: aqua;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background-color: lightpink;
 }
 .theirELetter {
+  background-color: lightyellow;
 }
 .theirILetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 46px;
+  color: hsl(300, 100%, 25%);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: lightgray;
 }
 .theirRLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 64px;
+  color: #8a2be2;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: lightblue;
 }
 
 /* ROOT word */
 
 .rootRLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 22px;
+  color: #00ffff;
+  font-weight: normal;
+  text-decoration: overline;
+  background-color: lightgreen;
 }
 .rootOLetter {
+  background-color: lightcoral;
 }
 .rootOTwoLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 64px;
+  color: #8a2be2;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color:
+   lightpink;
 }
 .rootTLetter {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 46px;
+  color: hsl(300, 100%, 25%);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: lightyellow;
 }
 
 /* SKILLS word */
 
 .skillsSLetter {
+  font-family: "Permanent Marker", cursive;
+  font-size: 26px;
+  color: rgb(255, 165, 0);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: lightgray;
 }
 .skillsKLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 64px;
+  color: #8a2be2;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: lightblue;
 }
 .skillsILetter {
+  background-color: lightgreen;
 }
 .skillsLLetter {
+  background-color: lightcoral;
 }
 .skillsLTwoLetter {
+  font-size: 72px;
+  font-weight: bold;
+  color: aqua;
+  background-color: lightblue;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background-color: lightpink;
 }
 .skillsSTwoLetter {
+  font-family: "Indie Flower", cursive;
+  font-size: 64px;
+  color: #8a2be2;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: lightyellow;
 }
 
 /* SYMBOLS */
 
 .hyphen {
+  background-color: lightgray;
 }
 .exclamation-mark {
+  font-family: "Indie Flower", cursive;
+  font-size: 64px;
+  color: #8a2be2;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: lightblue;
 }
 .question-mark {
+  background-color: lightgreen;
 }
